@@ -1,0 +1,43 @@
+<!-- <style>
+  .main-page {
+    font-size: 11px;
+  }
+  .tra {
+    background-color: red;
+  }
+</style> -->
+<style>
+  @keyframes go-left-right {        /* give it a name: "go-left-right" */
+    from { left: 0px; }             /* animate from left: 0px */
+    to { left: calc(100% - 50px); } /* animate to left: 100%-50px */
+  }
+
+  .change-color {
+    background-color: red;
+    position: relative;
+    width: 40px;
+    height: 24px;
+    /* transition: transform 3s ease-in-out, opacity 3s ease-in-out; */
+    /* margin-left: 100px; */
+    /* animation: go-left-right 3s infinite alternate; */
+    /* transition: margin-left 5s cubic-bezier(.5, -1, .5, 2) 1s; */
+  }
+
+  .change-color:hover {
+    /* transform: scale(10); */
+    /* opacity: 0; */
+  }
+</style>
+<body>
+  <div class="main-page">nguyen duytra </div>
+  <input id="tra" placeholder="name"/>
+  <button id="dddd">switch</button> 
+  <button id="cancel">cancel</button> 
+  <button id="dddr">switch</button> 
+  <button id="cancel2">cancel2</button> 
+  <div id="server"></div>
+  <div class="change-color" id='sss'></div>
+</body>
+
+<script src="keyConcepJavascript.js">
+</script>

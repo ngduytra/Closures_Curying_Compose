@@ -1,0 +1,117 @@
+
+
+.logo {
+    background: url(./logo_quynh.png) no-repeat;
+    top: 15px;
+}
+
+.header {
+    background-color: #ffffff;
+    height: 43px;
+}
+
+.body {
+    height: calc(100vh - 86px);
+    background: url(./homepage.jpg) no-repeat;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+}
+
+.footer {
+    height: 43px;
+    
+}
+.header .menu {
+    height: 43px;
+    flex-wrap: nowrap;
+}
+
+.header .menu .col {
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999 ;
+    top: 15px;
+    font-family: 'MuseoSans700', Helvetica, Arial, sans-serif;
+}
+
+.footer .input-text {
+    /* height: 21px;
+    top: 11px; */
+}
+
+.footer .input-text .input-content {
+    height: 21px;
+    width: 181px;
+    font-size: 10px;
+    border: 1px solid #999;
+    top: 11px;
+    left: 0px;
+    position: absolute;
+}
+
+.footer .submit {
+    border: none;
+    background: url(./submit.png) no-repeat;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    left: 190px;
+    text-indent: -999px;
+    top: 11px;
+    position: absolute;
+}
+
+.social_button {
+    width: 21px;
+    height: 21px;
+    background: url(./fb_logo.png) no-repeat;
+    position: absolute;
+    top: 11px;
+    left: 242px;
+}
+
+.body .info-panel {
+    background-color: #ffffff;
+    width: 364px;
+    padding: 13px 25px 13px 13px;
+    margin-bottom: 11px;
+}
+
+.body .row {
+    height: 100%;
+    align-items: flex-end;
+}
+
+.body .info-panel .topbar{
+    color: #999;
+    min-height: 15px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    border-bottom: 1px solid #EAE9E9;
+    max-width: 70px;
+}
+
+.body .info-panel .title {
+    font-family: 'MuseoSlab500';
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.body .info-panel .category {
+    font-family: 'MuseoSans500';
+    font-weight: normal;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.body .info-panel .short_des {
+    line-height: 1.6;
+    font-family: 'MuseoSans300';
+    font-size: 10px;
+}
+
+.body .col-6 {
+    padding: 0px;
+}
